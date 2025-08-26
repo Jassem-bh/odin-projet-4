@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  background: #0077cc;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background: #005fa3;
+}
+
+#container {
+  width: 960px;
+  height: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid #333;
+}
+
+.cell {
+  flex: 1 0 auto;
+  aspect-ratio: 1 / 1;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+}
+
+.gridlines .cell {
+  border: 1px solid #ddd;
+}
+
+.no-gridlines .cell {
+  border: none;
+}
